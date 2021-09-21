@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    private final TimeController timeController;
+    private final TimeClient timeController;
 
-    public HelloController(TimeController timeController) {
+    public HelloController(TimeClient timeController) {
         this.timeController = timeController;
     }
 
