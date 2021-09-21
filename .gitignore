@@ -1,0 +1,17 @@
+*.iml
+.idea
+node_modules
+*.log
+*.orig
+externals
+target
+out
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+.settings
+.classpath
+.project
+project.properties
+*.class
+
+.DS_Store
