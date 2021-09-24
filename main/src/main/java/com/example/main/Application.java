@@ -3,7 +3,7 @@ package com.example.main;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"com.example.first","com.example.second"})
+@SpringBootApplication(scanBasePackages = {"com.example.*"})
 public class Application {
 
     public static void main(String[] args) {
